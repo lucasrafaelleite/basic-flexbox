@@ -1,0 +1,29 @@
+.container {
+  background:#ccc;
+  display: flex;
+  widows: 100%;
+  padding:40px 0px;
+  -webkit-flex-flow: row wrap; 
+}
+.container .item {
+  width:48%;
+  background:#fff;
+  margin:1%;
+  border-radius:3px;
+  box-sizing:border-box;
+  padding:20px;
+}
+.container .item h1 {
+  color:#666;
+  font-family:'Arial', sans-serif;
+  font-size:24px;
+  margin:20px 0px;
+  display: block;
+  width:100%;
+  text-align:center;
+}
+.container .item p {
+  display:block;
+  text-align:center;
+  font-family:'Arial', sans-serif;
+}
